@@ -5,7 +5,6 @@
 * [1. O Projeto](#1-O-Projeto)
 * [2. Como instalar](#2-Como-Instalar)
 * [3. Utilizando](#3-Utilizando)
-* [4. História de Usuário](#4-História-de-Usuário)
 
 ***
 
