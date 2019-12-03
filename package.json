@@ -1,13 +1,13 @@
 {
   "name": "sap003-md-links",
   "version": "1.0.0",
-  "description": "[Markdown](https://pt.wikipedia.org/wiki/Markdown) é uma linguagem de marcação\r muito popular entre os programadores. É usada em muitas plataformas que\r manipulam texto (GitHub, fórum, blogs e etc), e é muito comum encontrar arquivos\r com este formato em qualquer repositório (começando pelo tradicional\r `README.md`).",
-  "main": "index.js",
+  "description": "Ferramenta de leitura de arquivos Markdown",
+  "main": "./lib/index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/milaferreira/SAP003-md-links/issues"
   },
-  "homepage": "https://github.com/milaferreira/SAP003-md-links#readme"
+  "homepage": "https://github.com/milaferreira/SAP003-md-links#readme",
+  "dependencies": {
+    "eslint": "^6.7.2",
+    "jest": "^24.9.0",
+    "npm": "^6.13.1"
+  },
+  "bin": {
+    "md-links": "./lib/cli.js"
+  }
 }
