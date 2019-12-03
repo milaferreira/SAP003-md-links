@@ -1,19 +1,31 @@
+# Data Lovers
 
-## 1. Prefácio
- 
-[Markdown](https://pt.wikipedia.org/wiki/Markdown) é uma linguagem de marcação
-muito popular entre os programadores. É usada em muitas plataformas que
-manipulam texto (GitHub, fórum, blogs e etc), e é muito comum encontrar arquivos
-com este formato em qualquer repositório (começando pelo tradicional
-`README.md`).
+## Índice
 
-Os arquivos `Markdown` normalmente contém _links_ que muitas vezes estão
-quebrados, ou que já não são válidos e isso prejudica muito o valor da
-informação que está ali.
+* [1. O Projeto](#1-O-Projeto)
+* [2. Como instalar](#2-Como-Instalar)
+* [3. Utilizando](#3-Utilizando)
+* [4. História de Usuário](#4-História-de-Usuário)
 
-Uma comunidade open source nos propôs criar uma ferramenta, usando
-[Node.js](https://nodejs.org/), que leia e analise arquivos no formato
-`Markdown`, para verificar os arquivos que contenham links e mostrar algumas
-estatísticas.
+***
 
-![md-links](https://user-images.githubusercontent.com/110297/42118443-b7a5f1f0-7bc8-11e8-96ad-9cc5593715a6.jpg)
+## 1. O Projeto
+
+O projeto tem como objetivo extrair links e seus respectivos nomes de arquivos Markdown
+
+
+
+## 2. Como Instalar
+
+$ npm install -g milaferreira/md-links
+
+## 3. Utilizando
+No terminal, insira o seguinte comando:
+
+$ md-links lib/__tests__/Teste.md
+
+Que retorna 
+
+https://pt.wikipedia.org/wiki/Markdown Markdown
+https://nodejs.org/ Node.js
+https://user-images.githubusercontent.com/110297/42118443-b7a5f1f0-7bc8-11e8-96ad-9cc5593715a6.jpg md-links
